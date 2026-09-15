@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+console.log("login listo")
   $("#formLogin").on("submit", function(e) {
     e.preventDefault();
 
