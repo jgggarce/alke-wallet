@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   var movimientos = JSON.parse(localStorage.getItem("alkeMovimientos"));
+  console.log("movimientos cargados");
 
   if (movimientos.length === 0) {
     $("#sinMovimientos").show();
