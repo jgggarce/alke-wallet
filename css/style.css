@@ -1,0 +1,95 @@
+body {
+  background-color: #eef2f7;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #16324f;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #16324f;
+  margin-bottom: 20px;
+}
+
+.balance-card {
+  background-color: #16324f;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.balance-card h3 {
+  margin: 0;
+}
+
+.balance-card .monto {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.card-opcion {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.contenedor {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+}
+
+table th {
+  background-color: #16324f;
+  color: white;
+}
+
+.contacto-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.contacto-item:hover {
+  background-color: #f1f1f1;
+}
+
+.mensaje-ok {
+  color: green;
+  font-weight: bold;
+}
+
+.mensaje-error {
+  color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .login-box {
+    margin: 30px 15px;
+  }
+  .contenedor {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+}
