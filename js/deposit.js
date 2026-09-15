@@ -8,6 +8,7 @@ $(document).ready(function() {
     var nuevoSaldo = saldo + monto;
 
     setSaldo(nuevoSaldo);
+    console.log("deposito realizado");
     agregarMovimiento("Deposito", "Deposito de fondos", monto);
 
     $("#saldoActual").text(nuevoSaldo);
